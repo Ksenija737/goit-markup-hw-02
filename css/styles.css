@@ -1,0 +1,46 @@
+/* колір осн тексту #757575 */
+/* другорядний колір тексту #212121 */
+/* білий колір тексту #FFFFFF */
+/* акцент тексту  #2196F3 */
+/* другорядний колір фону #F5F4FA */
+
+:root{
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+    --white-color:#FFFFFF;
+}
+body{
+    color:var(--primary-text-color) ;
+    background-color: #F5F5F5;
+}
+ul{
+    list-style: none;
+}
+/*header*/
+.logo{
+    color:var(--accent-color) ;
+}
+[href^="./index"], [href^="mailto"] {
+    color:var(--accent-color);
+}
+
+[href^="tel"] {
+    color: var(--primary-text-color);
+}
+[href^="./port"], [href^="#"] {
+    color:var(--title-text-color);
+}
+/*hero*/
+.hero-title{
+    color:var(--white-color) ;
+}
+/*section*/
+
+ .section-title{
+    color:var(--title-text-color) ;
+ }
+/*fetures*/
+ .feature-title{
+    color:var(--title-text-color) ;
+ }
