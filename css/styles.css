@@ -9,6 +9,9 @@
     --title-text-color:#212121;
     --accent-color:#2196F3;
     --white-color:#FFFFFF;
+    --primary-bg-color:#F5F5F5;
+    --time-bg-color:#F5F4FA;
+    --hero-bg-color:#2F303A;
 }
 body{
     color:var(--primary-text-color) ;
@@ -18,7 +21,9 @@ ul{
     list-style: none;
 }
 /*header*/
-.logo{
+
+
+a.logo{
     color:var(--accent-color) ;
 }
 [href^="./index"], [href^="mailto"] {
@@ -40,7 +45,26 @@ ul{
  .section-title{
     color:var(--title-text-color) ;
  }
+
+
 /*fetures*/
  .feature-title{
     color:var(--title-text-color) ;
  }
+
+ /*description*/
+.team-title{
+color:var(--title-text-color) ;
+}
+
+/*examples*/
+.work-title{
+color:var(--title-text-color) ;
+}
+
+/*button*/
+
+.button{
+    color: var(--white-color);
+    background:var(--time-bg-color);
+}
