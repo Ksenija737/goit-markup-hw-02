@@ -23,8 +23,13 @@ ul{
 /*header*/
 
 
-a.logo{
+.logo{
     color:var(--accent-color) ;
+
+}
+.second-logo{
+    color:var(--title-text-color) ;
+
 }
 [href^="./index"], [href^="mailto"] {
     color:var(--accent-color);
@@ -65,6 +70,15 @@ color:var(--title-text-color) ;
 /*button*/
 
 .button{
+    color: var(---title-text-color);
+    background:var(--time-bg-color);
+}
+
+.button.primary{
     color: var(--white-color);
+    background:var(--accent-color);
+}
+.button.secondary{
+    color: var(---title-text-color);
     background:var(--time-bg-color);
 }
