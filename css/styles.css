@@ -14,25 +14,33 @@
     --hero-bg-color:#2F303A;
 }
 body{
-    font-family: 'Roboto';
     color:var(--primary-text-color) ;
     background-color: #F5F5F5;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 3%;
 }
 ul{
     list-style: none;
 }
 /*header*/
 
-
+/* logo */
 .logo{
     color:var(--accent-color) ;
-
+font-family: Raleway, sans-serif;
+font-size: 26px;
+line-height: 1.19;
 }
 .second-logo{
     color:var(--title-text-color) ;
 }
 
 /*nav*/
+
+.site-nav .link:hover
+.site-nav .link:focus{
+color: var(--title-text-color);
+}
 .site-nav .link.current{
     color: var(--accent-color);
 }
