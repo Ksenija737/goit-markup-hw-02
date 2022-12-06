@@ -29,18 +29,21 @@ ul{
 }
 .second-logo{
     color:var(--title-text-color) ;
-
 }
-[href^="./index"], [href^="mailto"] {
-    color:var(--accent-color);
+
+/*nav*/
+.site-nav .link.current{
+    color: var(--accent-color);
+}
+
+.site-nav .link{
+color: var(--title-text-color);
 }
 
 [href^="tel"] {
     color: var(--primary-text-color);
 }
-[href^="./port"], [href^="#"] {
-    color:var(--title-text-color);
-}
+
 /*hero*/
 .hero-title{
     color:var(--white-color) ;
