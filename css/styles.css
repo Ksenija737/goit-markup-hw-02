@@ -12,15 +12,18 @@
     --primary-bg-color:#F5F5F5;
     --time-bg-color:#F5F4FA;
     --hero-bg-color:#2F303A;
+    --accent-bg-color:#188CE8;
 }
 body{
     color:var(--primary-text-color) ;
     background-color: #F5F5F5;
     font-family: Roboto, sans-serif;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
 }
 ul{
     list-style: none;
+    text-decoration: none;
+
 }
 /*header*/
 
@@ -30,6 +33,9 @@ ul{
 font-family: Raleway, sans-serif;
 font-size: 26px;
 line-height: 1.19;
+list-style: none;
+text-decoration: none;
+
 }
 .second-logo{
     color:var(--title-text-color) ;
@@ -37,25 +43,48 @@ line-height: 1.19;
 
 /*nav*/
 
-.site-nav .link:hover
+/* .site-nav .link:hover
 .site-nav .link:focus{
 color: var(--title-text-color);
-}
+} */
 .site-nav .link.current{
     color: var(--accent-color);
 }
 
 .site-nav .link{
 color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
-
-[href^="tel"] {
+.contact-nav .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.contact-nav [href^="mailto"] {
+    color: var(--accent-color);
+}
+.contact-nav [href^="tel"] {
     color: var(--primary-text-color);
 }
 
 /*hero*/
+.hero {
+    background-color: var(--hero-bg-color);
+}
 .hero-title{
     color:var(--white-color) ;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase
 }
 /*section*/
 
@@ -84,13 +113,51 @@ color:var(--title-text-color) ;
 .button{
     color: var(---title-text-color);
     background:var(--time-bg-color);
+    font-family: inherit;
+}
+.button:hover {
+    background: var(--accent-bg-color);
+}
+
+.button:focus{
+background: var(--accent-bg-color);
 }
 
 .button.primary{
     color: var(--white-color);
     background:var(--accent-color);
+    
 }
 .button.secondary{
     color: var(---title-text-color);
     background:var(--time-bg-color);
 }
+.hero .button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+/* footer */
+.second-logo.footer{
+    color:var(--white-color)
+}
+.contacts .link{
+    text-decoration: none;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.section-footer{
+background-color: var(--hero-bg-color);
+}
+.contacts .address{
+    color: var(--white-color);
+}
+.contacts .footer{
+color: rgba(255, 255, 255, 0.6);
+}
+/* лого футер змінити */
