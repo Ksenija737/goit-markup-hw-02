@@ -168,12 +168,29 @@ color: var(--accent-color);
     color: var(---title-text-color);
     background:var(--time-bg-color);
     font-family: inherit;
+    font-weight: 500;
+    font-size: inherit;
+    line-height: 1.62;
+    text-align: center;
+    cursor: pointer;
 }
 
 .button.primary{
     color: var(--white-color);
     background:var(--accent-color);
     
+}
+.hero .button{
+
+    font-weight: 700;
+    line-height: 1.88;
+    align-items: center;
+    letter-spacing: 0.06em;
+}
+.button.secondary {
+    color: var(---title-text-color);
+    background: var(--time-bg-color);
+
 }
 
 .hero .button {
