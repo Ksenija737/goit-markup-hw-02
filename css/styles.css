@@ -188,7 +188,7 @@ color: var(--accent-color);
     letter-spacing: 0.06em;
 }
 .button.secondary {
-    color: var(---title-text-color);
+    color: var(--title-text-color);
     background: var(--time-bg-color);
 
 }
